@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment="form connexion">
-      <change afterPath="$PROJECT_DIR$/Connexion/Connexion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Connexion/DialogueBD.php" afterDir="false" />
+    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment="Connexion Utilisateur">
+      <change afterPath="$PROJECT_DIR$/vue/inscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connexion/DialogueBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion/DialogueBD.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.5.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/layouts/master.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/layouts/master.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609917644871</updated>
-      <workItem from="1609917645924" duration="6636000" />
+      <workItem from="1609917645924" duration="8414000" />
     </task>
     <task id="LOCAL-00001" summary="Modèle MVC base (sans bdd)">
       <created>1609921690934</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609922518581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Connexion Utilisateur">
+      <created>1609924317052</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609924317052</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +89,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modèle MVC base (sans bdd)" />
     <MESSAGE value="form connexion" />
-    <option name="LAST_COMMIT_MESSAGE" value="form connexion" />
+    <MESSAGE value="Connexion Utilisateur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connexion Utilisateur" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609923336206">
@@ -101,13 +109,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609922583761" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1609921805935">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1609925002455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609921805935" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609921692470">
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609925002455" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609924462752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609921692470" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609924462752" />
   </component>
 </project>

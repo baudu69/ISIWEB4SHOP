@@ -29,7 +29,7 @@
         $username=$_SESSION['username'];
         echo "Bonjour <b>$username</b> [<a class='linkNoStyle' href='?action=deconnexion'>Logout</a>]";
     } else {
-        echo "<a class='linkNoStyle' href='?action=connexion'>Connexion</a>";
+        echo "<a class='linkNoStyle' href='?action=connexion'>Connexion</a> - <a class='linkNoStyle' href='?action=inscription'>Inscription</a>";
     }
     ?>
 </div>

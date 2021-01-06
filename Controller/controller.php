@@ -39,3 +39,20 @@ require ('Connexion/DialogueBD.php');
         $_SESSION = array();
         render('accueil.php');
     }
+
+    function getPageInscription() {
+        render('inscription.php');
+    }
+
+    function inscription() {
+        $username=$_POST['username'];
+        $password=$_POST['password'];
+        try {
+            $dbx = new DialogueBD();
+            $dbx->addUser($username, $password);
+            render('connexion.php', 'Inscription effectué');
+        } catch (Exception $exception) {
+            render('inscription.php', $exception->getMessage());
+        }
+
+    }

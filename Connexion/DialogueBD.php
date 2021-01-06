@@ -17,4 +17,18 @@ class DialogueBD
 
         }
     }
+
+    function addUser($username, $password) {
+        try{
+            $conn = Connexion::getConnexion();
+            $sql = "INSERT INTO logins(username, password) VALUE (?, ?)";
+            $sth = $conn->prepare($sql);
+            $sth->execute(array($username, password_hash($password, PASSWORD_DEFAULT)));
+        }
+        catch (PDOException $e)
+        {
+            $erreur = $e->getMessage();
+            throw new Exception($erreur);
+        }
+    }
 }

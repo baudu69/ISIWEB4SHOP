@@ -18,6 +18,12 @@ else {
         case 'deconnexion':
             deconnexion();
             break;
+        case 'inscription':
+            getPageInscription();
+            break;
+        case 'postInscription':
+            inscription();
+            break;
 
     }
 }
