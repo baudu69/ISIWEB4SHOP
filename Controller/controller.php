@@ -4,7 +4,5 @@
     }
 
     function render($page) {
-        require ('vue/layouts/masterup.php');
-        require ('vue/'.$page);
-        require ('vue/layouts/masterdown.php');
+        require ('vue/layouts/master.php');
     }

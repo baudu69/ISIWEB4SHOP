@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment="" />
+    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/layouts/master.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/layouts/masterdown.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/layouts/masterup.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mgaN7T0HIjRH27Z4IDKoz0nq5H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609917644871</updated>
-      <workItem from="1609917645924" duration="1932000" />
+      <workItem from="1609917645924" duration="4025000" />
     </task>
     <servers />
   </component>
@@ -52,6 +65,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="829" y="418" key="Github.ShareDialog" timestamp="1609919605332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="829" y="418" key="Github.ShareDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609919605332" />
+    <state x="769" y="225" key="Github.UntrackedFilesDialog" timestamp="1609919612187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609919612187" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1609918989482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
