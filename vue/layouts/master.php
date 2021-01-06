@@ -14,7 +14,7 @@ session_start();
     ISIWEB4SHOP
 </div>
 <div class="laNavbar">
-    <a class="linkNoStyle" href="">Accueil</a>
+    <a class="linkNoStyle" href="?action=accueil">Accueil</a>
     -
     <a class="linkNoStyle" href="">Panier</a>
 </div>
@@ -32,7 +32,7 @@ session_start();
         $username=$_SESSION['username'];
         echo "Bonjour <b>$username</b> [<a class='linkNoStyle' href='#'>Logout</a>]";
     } else {
-        echo "<a class='linkNoStyle' href='#'>Connexion</a>";
+        echo "<a class='linkNoStyle' href='?action=connexion'>Connexion</a>";
     }
     ?>
 </div>

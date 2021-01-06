@@ -9,6 +9,9 @@ else {
         case 'accueil':
             getAccueil();
             break;
+        case 'connexion':
+            getPageConnexion();
+            break;
 
     }
 }

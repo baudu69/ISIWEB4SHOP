@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/layouts/master.php" afterDir="false" />
+    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment="Modèle MVC base (sans bdd)">
+      <change afterPath="$PROJECT_DIR$/vue/connexion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/accueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/layouts/masterdown.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/layouts/masterup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/layouts/master.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/layouts/master.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +54,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609917644871</updated>
-      <workItem from="1609917645924" duration="4025000" />
+      <workItem from="1609917645924" duration="4840000" />
     </task>
+    <task id="LOCAL-00001" summary="Modèle MVC base (sans bdd)">
+      <created>1609921690934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609921690934</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modèle MVC base (sans bdd)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modèle MVC base (sans bdd)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="829" y="418" key="Github.ShareDialog" timestamp="1609919605332">
@@ -73,9 +82,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609919612187" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1609918989482">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1609921805935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609918989482" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609921805935" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609921692470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609921692470" />
   </component>
 </project>
