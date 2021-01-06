@@ -5,4 +5,5 @@
     <label for="password">Password</label>
     <input type="password" name="password" id="password" />
     <input type="submit" value="Se connecter" />
+    <?php if (isset($message)) echo $message; ?>
 </form>

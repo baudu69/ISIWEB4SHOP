@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -30,7 +27,7 @@ session_start();
     <hr />
     <?php if (isset($_SESSION['username'])) {
         $username=$_SESSION['username'];
-        echo "Bonjour <b>$username</b> [<a class='linkNoStyle' href='#'>Logout</a>]";
+        echo "Bonjour <b>$username</b> [<a class='linkNoStyle' href='?action=deconnexion'>Logout</a>]";
     } else {
         echo "<a class='linkNoStyle' href='?action=connexion'>Connexion</a>";
     }
