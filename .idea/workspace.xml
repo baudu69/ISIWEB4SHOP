@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment="Connexion Utilisateur">
-      <change afterPath="$PROJECT_DIR$/vue/inscription.php" afterDir="false" />
+    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment="Inscription Utilisateur">
+      <change afterPath="$PROJECT_DIR$/vue/listeProduit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connexion/DialogueBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion/DialogueBD.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-3.5.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/accueil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/layouts/master.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/layouts/master.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +68,11 @@
       <recent name="D:\xampp2\htdocs\ISIWEB\ISIWEB4SHOP\vue\layouts" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Run" type="JavascriptDebugType" uri="http://localhost/ISIWEB/ISIWEB4SHOP/">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +81,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609917644871</updated>
-      <workItem from="1609917645924" duration="8414000" />
+      <workItem from="1609917645924" duration="9245000" />
+      <workItem from="1609932711676" duration="2833000" />
+      <workItem from="1609961728481" duration="1373000" />
+      <workItem from="1610526758464" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="Modèle MVC base (sans bdd)">
       <created>1609921690934</created>
@@ -80,23 +107,43 @@
       <option name="project" value="LOCAL" />
       <updated>1609924317052</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Inscription Utilisateur">
+      <created>1609926114802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609926114802</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modèle MVC base (sans bdd)" />
     <MESSAGE value="form connexion" />
     <MESSAGE value="Connexion Utilisateur" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connexion Utilisateur" />
+    <MESSAGE value="Inscription Utilisateur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inscription Utilisateur" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609923336206">
+    <state x="552" y="178" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609961876372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609923336206" />
+    <state x="552" y="178" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609961876372" />
     <state x="829" y="418" key="Github.ShareDialog" timestamp="1609919605332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,13 +156,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609922583761" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1609925002455">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1609933080955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609925002455" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609924462752">
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609933080955" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609926115873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609924462752" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609926115873" />
   </component>
 </project>

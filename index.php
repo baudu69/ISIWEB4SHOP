@@ -24,6 +24,16 @@ else {
         case 'postInscription':
             inscription();
             break;
+        case 'produits':
+            affichProduits();
+            break;
+        case 'ajouterPanier':
+            ajouterObjetPanier();
+            break;
 
+
+        default:
+            getAccueil();
+            break;
     }
 }

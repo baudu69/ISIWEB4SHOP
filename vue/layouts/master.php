@@ -19,9 +19,9 @@
     <span class="titreSide"> Notre Offre </span>
     <div class="listeCat">
         <ul>
-            <li>Boissons</li>
-            <li>Biscuits</li>
-            <li>Fruits sec</li>
+            <li><a class='linkNoStyle' href='?action=produits&codeCat=1'>Boissons</a></li>
+            <li><a class='linkNoStyle' href='?action=produits&codeCat=2'>Biscuits</a></li>
+            <li><a class='linkNoStyle' href='?action=produits&codeCat=3'>Fruits sec</a></li>
         </ul>
     </div>
     <hr />

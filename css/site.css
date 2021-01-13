@@ -24,12 +24,12 @@
 
 .sidebar {
     margin-left: 5px;
-    position: fixed;
+    position: absolute;
     width: 20%;
 }
 
 .contenu {
-    position: fixed;
+    position: absolute;
     margin-left: 30%;
     margin-right: 5px;
 }
@@ -44,4 +44,19 @@
     height: 47px;
     border-bottom: 1px solid black;
     position: fixed;
+}
+
+.imgGauche {
+    height: 50px;
+    width: 50px;
+}
+
+.descrDroite {
+    height: 50px;
+    width: 600px;
+    margin-right: 60px;
+}
+
+tr.spaceUnder>td {
+    padding-bottom: 100em;
 }

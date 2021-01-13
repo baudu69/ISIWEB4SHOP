@@ -10,7 +10,7 @@ require ('Connexion/DialogueBD.php');
         render('connexion.php');
     }
 
-    function render($page, $message=null) {
+    function render($page, $message=null, $var1=null, $var2=null, $var3=null) {
         require ('vue/layouts/master.php');
     }
 
@@ -23,7 +23,7 @@ require ('Connexion/DialogueBD.php');
             if (!empty($unUserDB)) {
                 if (password_verify($password, $unUserDB->password)) {
                     $_SESSION['username'] = $username;
-                    $_SESSION['username'] = $username;
+                    $_SESSION['id'] = $unUserDB->id;
                     render('accueil.php');
                 } else {
                     render('connexion.php', 'Mot de passe incorrect');
@@ -53,6 +53,28 @@ require ('Connexion/DialogueBD.php');
             render('connexion.php', 'Inscription effectué');
         } catch (Exception $exception) {
             render('inscription.php', $exception->getMessage());
+        }
+    }
+
+    function affichProduits() {
+        try {
+            $codeCat = $_GET['codeCat'];
+            $dbx = new DialogueBD();
+            $uneCategorie=$dbx->getUneCat($codeCat);
+            $lesProduits = $dbx->getProduitByCodeCat($codeCat);
+            render('listeProduit.php', $uneCategorie->name, $lesProduits);
+        } catch (Exception $exception) {
+            render('erreur.php', $exception->getMessage());
+        }
+    }
+
+    function ajouterObjetPanier() {
+
+        //Si connecté
+        if (isset($_SESSION['id'])) {
+            $id = $_SESSION['id'];
+        } else {
+            $id=session_id();
         }
 
     }
