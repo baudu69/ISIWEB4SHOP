@@ -30,6 +30,27 @@ else {
         case 'ajouterPanier':
             ajouterObjetPanier();
             break;
+        case 'panier':
+            affichPanier();
+            break;
+        case 'supprimerPanier':
+            supprimerPanier();
+            break;
+        case 'validerPanier':
+            formValiderPanier();
+            break;
+        case 'validerOrder':
+            validerOrder();
+            break;
+        case 'commande':
+            afficherListeCommandes();
+            break;
+        case 'detailsCommande':
+            afficherDetailCommande();
+            break;
+        case 'validerEnvoi':
+            validerEnvoi();
+            break;
 
 
         default:

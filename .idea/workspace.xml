@@ -19,15 +19,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment="Inscription Utilisateur">
-      <change afterPath="$PROJECT_DIR$/vue/listeProduit.php" afterDir="false" />
+    <list default="true" id="eddc112e-0891-41c9-ab3b-46f4f4553291" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/AUDU_Piscione_TP_Synthese.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/abricotsSecs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/amandes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/assortimentBiscuitsSecs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/biscuitNoel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/biscuitRaisin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/biscuitsCannelle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/biscuitsTortue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/bouleDeNeigeCoco.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/cafeCapsule.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/cafeDosette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/cafeGrain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/cookiesChocolat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/infusionCitron.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/infusionVerveine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/jusCitron.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/jusOrange.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/jusPamplemousse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/jusPomme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/macaronChocolat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/melangeMarrons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/melangeNoisettes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/plateauFruitsSecs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/pruneauxSecs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/theCannelle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productimages/theVert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/Valider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/detailsCommande.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/listeCommande.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/panier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/validPanier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connexion/DialogueBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion/DialogueBD.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productimages/dosetteCafe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/productimages/dosetteCafe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/inscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/layouts/master.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/layouts/master.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/listeProduit.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/listeProduit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +81,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="e98f9809-5b48-49d3-b61b-2cbcb1ce7899" name="localhost" />
+    </servers>
   </component>
   <component name="ProjectId" id="1mgaN7T0HIjRH27Z4IDKoz0nq5H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,7 +123,11 @@
       <workItem from="1609917645924" duration="9245000" />
       <workItem from="1609932711676" duration="2833000" />
       <workItem from="1609961728481" duration="1373000" />
-      <workItem from="1610526758464" duration="286000" />
+      <workItem from="1610526758464" duration="3097000" />
+      <workItem from="1611649814225" duration="8206000" />
+      <workItem from="1611673066467" duration="6466000" />
+      <workItem from="1611734768241" duration="14351000" />
+      <workItem from="1611794080192" duration="222000" />
     </task>
     <task id="LOCAL-00001" summary="Modèle MVC base (sans bdd)">
       <created>1609921690934</created>
@@ -114,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609926114802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".">
+      <created>1610527161251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610527161251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,32 +187,7 @@
     <MESSAGE value="form connexion" />
     <MESSAGE value="Connexion Utilisateur" />
     <MESSAGE value="Inscription Utilisateur" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inscription Utilisateur" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="178" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609961876372">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609961876372" />
-    <state x="829" y="418" key="Github.ShareDialog" timestamp="1609919605332">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="829" y="418" key="Github.ShareDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609919605332" />
-    <state x="769" y="225" key="Github.UntrackedFilesDialog" timestamp="1609919612187">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609919612187" />
-    <state x="736" y="243" key="NewPhpClassDialog" timestamp="1609922583761">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="736" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609922583761" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1609933080955">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609933080955" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609926115873">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1024.200.1024.728/1920.209.1024.728@0.0.1920.1040" timestamp="1609926115873" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

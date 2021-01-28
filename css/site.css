@@ -60,3 +60,8 @@
 tr.spaceUnder>td {
     padding-bottom: 100em;
 }
+
+img {
+    width: 200px;
+    height: auto;
+}

@@ -13,7 +13,14 @@
 <div class="laNavbar">
     <a class="linkNoStyle" href="?action=accueil">Accueil</a>
     -
-    <a class="linkNoStyle" href="">Panier</a>
+    <a class="linkNoStyle" href="?action=panier">Panier</a>
+    <?php
+    if (isset($_SESSION['idAdmin'])) {
+        echo '-';
+        echo '<a class="linkNoStyle" href="?action=commande">Commandes</a>';
+    }
+
+    ?>
 </div>
 <div class="sidebar">
     <span class="titreSide"> Notre Offre </span>
@@ -25,7 +32,7 @@
         </ul>
     </div>
     <hr />
-    <?php if (isset($_SESSION['username'])) {
+    <?php if (isset($_SESSION['username']) || isset($_SESSION['idAdmin'])) {
         $username=$_SESSION['username'];
         echo "Bonjour <b>$username</b> [<a class='linkNoStyle' href='?action=deconnexion'>Logout</a>]";
     } else {

@@ -1,12 +1,19 @@
 <h2>Inscription</h2>
 <form method="post" action="?action=postInscription">
-    <label for="username">Username</label>
-    <input type="text" name="username" id="username"/>
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password" />
-    <label for="password1">Confirm password</label>
-    <input type="password" name="password1" id="password1" />
-    <button type="submit" id="valider" value="">Se connecter</button>
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" name="username" id="username"/>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" name="password" id="password" />
+    </div>
+    <div class="form-group">
+        <label for="password1">Confirm password</label>
+        <input type="password" class="form-control" name="password1" id="password1" />
+    </div>
+
+    <button type="submit" id="valider" value="">S'inscrire</button>
     <?php if (isset($message)) echo $message; ?>
 </form>
 <script src="js/jquery.min.js"></script>

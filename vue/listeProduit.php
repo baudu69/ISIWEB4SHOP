@@ -14,9 +14,18 @@
             echo "<h3>$nomProduit</h3><br/>";
             echo "<p>$description</p>";
             echo "<b>Notre prix : $prix €";
-            echo "<br /><br /><a class='linkNoStyle' href='?action=ajouterPanier&idProduit=$idProduit'>[acheter]</a>";
+            echo "<br /><br /><a class='linkNoStyle' id='btn_$idProduit' href='?action=ajouterPanier&idProduit=$idProduit&quantity=1'>[acheter]</a>";
             ?>
+            <label>Quantité</label>
+            <input type="number" min="1" width="10px" id="<?php echo $idProduit; ?>" name="quantity" value="1" onchange="changerQuantity(this)" />
         </td>
     </tr>
 <?php } ?>
 </table>
+<script>
+    function changerQuantity(input) {
+        let idProduitChange = input.id;
+        let btnAModifier = document.getElementById('btn_'+idProduitChange);
+        btnAModifier.href = '?action=ajouterPanier&idProduit='+idProduitChange+'&quantity='+input.value;
+    }
+</script>
